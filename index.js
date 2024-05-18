@@ -10,15 +10,13 @@ const io = socketIo(server, {
       origin: "*", // Frontend URL
       methods: ["GET", "POST"],
     }
-   
 });
 // Dummy data for demonstration
 const videoLinks = [
 
-        'https://res.cloudinary.com/doy3ks7ls/video/upload/v1680075287/Intro_xb5ftf.mp4',
-        'https://res.cloudinary.com/doy3ks7ls/video/upload/v1680075215/Question_1_rwml32.mp4',
-        'https://res.cloudinary.com/doy3ks7ls/video/upload/v1680075219/Question_2_yeddjq.mp4',
-        'https://res.cloudinary.com/doy3ks7ls/video/upload/v1680075219/Question_3_kqgbgw.mp4',
+        'https://res.cloudinary.com/dipn71lt0/video/upload/v1716052854/lmndkrpc3webohoqdmab.mp4',
+        'https://res.cloudinary.com/dpfcfb009/video/upload/v1715951502/satya/b0ig0zkopobyhf4oqypw.mp4',
+      
   ];
 let currentVideoIndex = 0;
 
