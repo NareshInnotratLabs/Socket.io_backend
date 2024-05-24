@@ -14,8 +14,7 @@ const io = socketIo(server, {
 // Dummy data for demonstration
 const videoLinks = [
 
-        'https://res.cloudinary.com/dipn71lt0/video/upload/v1716052854/lmndkrpc3webohoqdmab.mp4',
-        'https://res.cloudinary.com/dpfcfb009/video/upload/v1715951502/satya/b0ig0zkopobyhf4oqypw.mp4',
+        'https://res.cloudinary.com/dpfcfb009/video/upload/v1716547393/satya/SatyaInnoview/q20msja7ipakcirabi9r.mp4',
       
   ];
 let currentVideoIndex = 0;
